@@ -1,10 +1,4 @@
-diff --git a/script.js b/script.js
-new file mode 100644
-index 0000000000000000000000000000000000000000..6a83332209521c156a6f898e5b96d950c957862c
---- /dev/null
-+++ b/script.js
-@@ -0,0 +1,74 @@
-+(() => {
+
 +  const PLANET_SELECTOR = "input[type='radio'][name='planet']";
 +
 +  const getPlanetFromHash = () => {
@@ -78,3 +72,4 @@ index 0000000000000000000000000000000000000000..6a83332209521c156a6f898e5b96d950
 +
 +  document.addEventListener('DOMContentLoaded', setupPlanetNavigation);
 +})();
+
